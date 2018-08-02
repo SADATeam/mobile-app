@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container">
+		<View id='container' layout="vertical">
+			<View id='imgDiv' height="Titanium.UI.SIZE">
+				<ImageView id='img' />
+				<ImageView id='profileImg' />
+				<View id='btn'>
+					
+				</View>
+			</View>
+			<Label id='fullname' class="fontRegular"  />
+			<View class="sep"></View>
+		</View>
+		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+	</Window>
+</Alloy>

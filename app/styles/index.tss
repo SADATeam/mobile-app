@@ -1,0 +1,48 @@
+".container": {
+	backgroundColor:"black"
+}
+
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#img": {
+	image : '/hajj2.jpg',
+	//image : '/hajj2.png',
+	height : 300,
+	width : Titanium.UI.FILL,
+	top : 0
+}
+
+"#profileImg": {
+	 backgroundColor : 'white',
+	 height : 140,
+	 width : 140,
+	 borderRadius : 70,
+	 borderWidth : 0
+}
+
+'#fullname':{
+	top : 15,
+	font : {
+		fontSize : '35sp'
+	},
+	color : '#393e46',
+	
+}
+
+'#btn': {
+	right : 20,
+	height : 40, width : 40,
+	backgroundColor  : '#00FF7F'
+}
+
+'.sep':{
+	top : 15,
+	height : 1,
+	backgroundColor : '#e5e5e5',
+	left : 15, right : 15
+}
